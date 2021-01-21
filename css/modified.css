@@ -1,0 +1,101 @@
+.dotPrimary .dot {
+  top: 5px;
+  left: -5px !important;
+  background-color: rgba(0, 123, 255, 0.161);
+}
+.dotPrimary .dot .dot1 {
+  background-color: var(--primary);
+}
+.dotPrimary .dot .dot2 {
+  background-color: rgba(0, 123, 255, 0.8);
+}
+.companies .owl-stage {
+  display: flex;
+}
+.companies .owl-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.companies .owl-carousel .owl-item img {
+  max-width: 150px;
+}
+.videoBG {
+  background: linear-gradient(
+      50deg,
+      rgba(58, 43, 220, 0.45) 0%,
+      rgba(23, 199, 189, 0.45) 100%
+    ),
+    url("../img/sa-blockchain.png") no-repeat 0 0 / cover;
+}
+.clients.owl-carousel .owl-dots {
+  margin-top: 30px;
+}
+.sec_pad {
+  padding: 60px 0px;
+}
+/*   COLOR  THEME  CHANGES  STARTS   */
+.contactBG {
+  background: linear-gradient(
+      180deg,
+      rgba(5, 127, 121, 0.85) 35%,
+      rgba(23, 199, 189, 1) 100%
+    ),
+    url(../img/modifications/office-work.jpg) no-repeat center/cover !important;
+}
+
+.breadcrumb_area,
+.home_analytics_banner_area,
+.agency_featured_item .agency_featured_content .icon {
+  background-image: linear-gradient(140deg, #057f79 0%, #17c7bd 100%);
+}
+.stateOfArt {
+  background-image: -moz-linear-gradient(140deg, #057f79 0%, #17c7bd 100%);
+  background-image: -webkit-linear-gradient(140deg, #057f79 0%, #17c7bd 100%);
+  background-image: -ms-linear-gradient(140deg, #057f79 0%, #17c7bd 100%);
+  padding: 120px 0px 80px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+/*    COLOR  THEME  CHANGES   ENDS    */
+.oneThirdServices li {
+  width: calc(100% / 3);
+}
+.oneHalfServices li {
+  width: calc(100% / 2);
+}
+
+.ourProducts .p_service_item p {
+  font-size: 16px;
+}
+
+.singleVideo .video_info {
+  box-shadow: none;
+}
+.singleVideo .owl-stage-outer {
+  box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.3);
+}
+.singleVideo .video_item {
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 20px 30px 0px rgba(0, 11, 40, 0.12);
+}
+.singleVideo .video_item .video_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu > .nav-item.active .nav-link {
+  color: #051441;
+}
+.menu > .nav-item > .nav-link:before {
+  background-color: #051441;
+  height: 3px;
+  bottom: -6px;
+}
+.offices .feedback_item {
+  /* background-color: rgba(15, 16, 41, 0.15); */
+  background-color: rgba(255, 255, 255, 0.25);
+}
