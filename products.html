@@ -80,7 +80,7 @@
             <a class="navbar-brand sticky_logo" href="#">
               <img
                 src="img/SALogoSVG.svg"
-                srcset="img/logo2x-2.png 2x"
+                srcset="img/SALogoSVG.svg"
                 alt="logo"
                 width="130px"
               />
@@ -153,11 +153,11 @@
       <section class="breadcrumb_area">
         <img
           class="breadcrumb_shap"
-          src="img/breadcrumb/banner_bg.png"
+          src="img/breadcrumb/banner_bg2.png"
           alt=""
         />
         <div class="container">
-          <div class="breadcrumb_content text-center">
+          <div class="breadcrumb_content">
             <h1 class="f_p f_700 f_size_50 t_color l_height50 mb_20">
               Our Products
             </h1>
@@ -170,7 +170,7 @@
         </div>
       </section>
 
-      <section class="prototype_service_info sec_pad">
+      <!-- <section class="prototype_service_info sec_pad">
         <div class="symbols-pulse active">
           <div class="pulse-1"></div>
           <div class="pulse-2"></div>
@@ -186,20 +186,34 @@
           >
             Collect. &nbsp; Analyze. &nbsp; Act.
           </h2>
-          <div class="row p_service_info ourProducts">
+          <div class="row p_service_info ourProducts text-center">
             <div class="col-lg-4 col-sm-6">
               <div
                 class="p_service_item pr_70 wow fadeInLeft"
                 data-wow-delay="0.4s"
                 data-wow-duration="1.2s"
               >
-                <div class="icon icon_one"><i class="ti-panel"></i></div>
+                <div class="icon icon_one mx-auto mb-4">
+                  <i class="ti-panel"></i>
+                </div>
                 <h4 class="f_600 f_p t_color3">BigAnalyzer</h4>
-                <p class="f_400">
+                <p
+                  class="collapse f_400 productText"
+                  id="bigData"
+                  aria-expanded="false"
+                >
                   Big Data (ML) platform, which can analyze millions of data
                   items and machine learning models in parallel to produce
                   actionable insights from large amounts of data in real-time.
                 </p>
+                <a
+                  role="button"
+                  class="collapsed"
+                  data-toggle="collapse"
+                  href="#bigData"
+                  aria-expanded="false"
+                  aria-controls="bigData"
+                ></a>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -207,13 +221,27 @@
                 class="p_service_item pl_50 pr_20 wow fadeInUp"
                 data-wow-delay="0.7s"
               >
-                <div class="icon icon_six"><i class="ti-bolt"></i></div>
+                <div class="icon icon_six mx-auto mb-4">
+                  <i class="ti-bolt"></i>
+                </div>
                 <h4 class="f_600 f_p t_color3">AutoEngage</h4>
-                <p class="f_400">
+                <p
+                  class="collapse f_400 productText"
+                  id="autoEngage"
+                  aria-expanded="false"
+                >
                   Use IVR, SMS and WhatsApp-for-business to engage customers,
                   turn early adopters into advocates and solicit customer
                   feedback at a specific time and location.
                 </p>
+                <a
+                  role="button"
+                  class="collapsed"
+                  data-toggle="collapse"
+                  href="#autoEngage"
+                  aria-expanded="false"
+                  aria-controls="autoEngage"
+                ></a>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -221,20 +249,40 @@
                 class="p_service_item pl_70 wow fadeInRight"
                 data-wow-delay="0.95s"
               >
-                <div class="icon icon_three"><i class="ti-fullscreen"></i></div>
+                <div class="icon icon_three mx-auto mb-4">
+                  <i class="ti-fullscreen"></i>
+                </div>
                 <h4 class="f_600 f_p t_color3">FieldForce</h4>
-                <p class="f_400">
+                <p
+                  class="collapse f_400 productText"
+                  id="FieldForce"
+                  aria-expanded="false"
+                >
                   Self-service, cloud-based survey platform and smartphone apps
                   to collect data from the field. Use your own field force, or
                   crowdsource using a marketplace of enumerators.
                 </p>
+                <a
+                  role="button"
+                  class="collapsed"
+                  data-toggle="collapse"
+                  href="#FieldForce"
+                  aria-expanded="false"
+                  aria-controls="FieldForce"
+                ></a>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
               <div class="p_service_item pr_70">
-                <div class="icon icon_two"><i class="ti-layout-grid2"></i></div>
+                <div class="icon icon_two mx-auto mb-4">
+                  <i class="ti-layout-grid2"></i>
+                </div>
                 <h4 class="f_600 f_p t_color3">SatView</h4>
-                <p class="f_400">
+                <p
+                  class="collapse f_400 productText"
+                  id="SatView"
+                  aria-expanded="false"
+                >
                   SatView generates population and socio-economic class (SEC)
                   maps at a 100 meter square granularity anywhere in the world,
                   for effective targeting of surveys (using FieldForce,
@@ -242,6 +290,14 @@
                   uses machine learning on satellite imagery, hyper-spectral
                   imagery, night-light imagery and open street maps.
                 </p>
+                <a
+                  role="button"
+                  class="collapsed"
+                  data-toggle="collapse"
+                  href="#SatView"
+                  aria-expanded="false"
+                  aria-controls="SatView"
+                ></a>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -249,15 +305,29 @@
                 class="p_service_item pl_50 pr_20 wow fadeInDown"
                 data-wow-delay="0.6s"
               >
-                <div class="icon icon_four"><i class="ti-vector"></i></div>
+                <div class="icon icon_four mx-auto mb-4">
+                  <i class="ti-vector"></i>
+                </div>
                 <h4 class="f_600 f_p t_color3">SampleOnline</h4>
-                <p class="f_400">
+                <p
+                  class="collapse f_400 productText"
+                  id="SampleOnline"
+                  aria-expanded="false"
+                >
                   Online sample design, data collection and analysis platform.
                   Target based on population, demography and socio-economic
                   class (SEC) using SatView and hyper-target respondents using
                   integrations with Google, YouTube, Facebook, Instagram,
                   WhatsApp and Twitter.
                 </p>
+                <a
+                  role="button"
+                  class="collapsed"
+                  data-toggle="collapse"
+                  href="#SampleOnline"
+                  aria-expanded="false"
+                  aria-controls="SampleOnline"
+                ></a>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -265,27 +335,45 @@
                 class="p_service_item pl_70 wow fadeInUp"
                 data-wow-delay="0.95s"
               >
-                <div class="icon icon_five"><i class="ti-cloud-down"></i></div>
+                <div class="icon icon_five mx-auto mb-4">
+                  <i class="ti-cloud-down"></i>
+                </div>
                 <h4 class="f_600 f_p t_color3">HyperAds</h4>
-                <p class="f_400">
+                <p
+                  class="collapse f_400 productText"
+                  id="HyperAds"
+                  aria-expanded="false"
+                >
                   Cloud-based digital advertising platform which provides a
                   location-based hyper-targeting of digital ads across Google,
                   Youtube, Facebook, Instagram, WhatsApp and Twitter.
                 </p>
+                <a
+                  role="button"
+                  class="collapsed"
+                  data-toggle="collapse"
+                  href="#HyperAds"
+                  aria-expanded="false"
+                  aria-controls="HyperAds"
+                ></a>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <!-- <section class="process_area bg_color sec_pad">
+      <section class="process_area sec_pad">
         <div class="container">
           <div class="features_info">
             <img class="dot_img" src="img/process/divider.png" alt="" />
             <div class="row agency_featured_item mt-0 flex-row-reverse">
               <div class="col-md-6 pt-5">
                 <div class="agency_featured_img text-right">
-                  <img src="img/process/process_1.png" alt="" />
+                  <img
+                    src="img/products/biganalyzer.PNG"
+                    alt="biganalyzer"
+                    class="img-fluid shadow"
+                  />
                 </div>
               </div>
               <div class="col-md-6 pt-5">
@@ -300,16 +388,20 @@
                     items and machine learning models in parallel to produce
                     actionable insights from large amounts of data in real-time.
                   </p>
-                  <a href="/contact-us.html" class="icon mt_30"
-                    ><i class="ti-arrow-right"></i
-                  ></a>
+                  <a href="/contact-us.html" class="icon mt_30 greenGradient">
+                    <i class="ti-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             </div>
             <div class="row agency_featured_item agency_featured_item_two">
               <div class="col-md-6">
                 <div class="agency_featured_img text-right">
-                  <img src="img/process/process_2.png" alt="" />
+                  <img
+                    src="img/products/ivr.png"
+                    alt="AutoEngage"
+                    class="img-fluid shadow"
+                  />
                 </div>
               </div>
               <div class="col-md-6">
@@ -332,12 +424,16 @@
             </div>
             <div class="row agency_featured_item flex-row-reverse">
               <div class="col-md-6">
-                <div class="agency_featured_img text-right">
-                  <img src="img/process/process_3.png" alt="" />
+                <div class="agency_featured_img text-right pt-5 mt-5">
+                  <img
+                    src="img/products/fieldforce.png"
+                    alt="fieldforce"
+                    class="img-fluid shadow"
+                  />
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="agency_featured_content pr_70 pl_70">
+              <div class="col-md-6 mt-5 pt-5">
+                <div class="agency_featured_content pr_70 pl_70 pt-5">
                   <div class="dot">
                     <span class="dot1"></span><span class="dot2"></span>
                   </div>
@@ -354,10 +450,14 @@
                 </div>
               </div>
             </div>
-            <div class="row agency_featured_item agency_featured_item_two">
+            <div class="row agency_featured_item agency_featured_item_two pt-5">
               <div class="col-md-6">
                 <div class="agency_featured_img text-right">
-                  <img src="img/process/process_4.png" alt="" />
+                  <img
+                    src="img/products/satView.PNG"
+                    alt="satView"
+                    class="img-fluid shadow"
+                  />
                 </div>
               </div>
               <div class="col-md-6">
@@ -385,7 +485,11 @@
             <div class="row agency_featured_item flex-row-reverse">
               <div class="col-md-6 mt-5">
                 <div class="agency_featured_img text-right">
-                  <img src="img/process/process_5.png" alt="" />
+                  <img
+                    src="img/products/sampleOnline.png"
+                    alt="sampleOnline"
+                    class="img-fluid shadow"
+                  />
                 </div>
               </div>
               <div class="col-md-6 mt-5">
@@ -402,17 +506,33 @@
                     integrations with Google, YouTube, Facebook, Instagram,
                     WhatsApp and Twitter.
                   </p>
+                  <a href="/contact-us.html" class="icon mt_30 greenGradient">
+                    <i class="ti-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="dot middle_dot" style="top: calc(100% + 50px)">
+            <div class="dot middle_dot">
               <span class="dot1"></span>
               <span class="dot2"></span>
             </div>
           </div>
-          <div class="row mt-5 pt-5 flex-column">
-            <div class="col-md-6 offset-md-3 text-center">
-              <div class="agency_featured_content pl_70">
+          <div class="row agency_featured_item flex-row-reverse">
+            <div class="col-md-6">
+              <div class="agency_featured_img text-right">
+                <img
+                  src="img/products/ads.jpg"
+                  alt="HyperAds"
+                  class="img-fluid shadow"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="agency_featured_content pr_70 pl_70">
+                <!-- <div class="dot">
+                  <span class="dot1"></span><span class="dot2"></span>
+                </div> -->
+                <!-- <img class="number" src="img/process/icon_05.png" alt="" /> -->
                 <h3 class="mt-4">HyperAds</h3>
                 <p>
                   Cloud-based digital advertising platform which provides a
@@ -421,19 +541,16 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-6 offset-md-3 text-center">
-              <div class="agency_featured_img text-right">
-                <img src="img/process/process_5.png" alt="" />
-              </div>
-              <a
-                href="contact-us.html"
-                class="btn_hover btn_six agency_banner_btn mt_30"
-                >Get in Touch</a
-              >
-            </div>
+          </div>
+          <div class="row mt-5 justify-content-center">
+            <a
+              href="contact-us.html"
+              class="btn_hover btn_six agency_banner_btn mt_30"
+              >Get in Touch</a
+            >
           </div>
         </div>
-      </section> -->
+      </section>
 
       <footer class="sec_pad bg_color">
         <div class="container">
