@@ -1,3 +1,18 @@
+::-webkit-scrollbar {
+  background: #efe9ee;
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #118680;
+  border-radius: 10rem;
+}
+::-webkit-scrollbar:horizontal {
+  height: 6px;
+}
+* {
+  outline: none;
+  scrollbar-width: thin;
+}
 .ml-15n {
   margin-left: -15px;
 }
@@ -12,14 +27,15 @@
 .dotPrimary .dot .dot2 {
   background-color: rgba(0, 123, 255, 0.8);
 }
-.companies .owl-stage {
+
+/* .companies .owl-stage {
   display: flex;
 }
 .companies .owl-item {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 /* .companies .owl-carousel .owl-item img {
   max-width: 150px;
 } */
@@ -151,4 +167,102 @@
 }
 .service_details_item + .service_details_item {
   margin-top: 100px;
+}
+.saWorkingList {
+  column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-gap: 30px;
+}
+.modal-xl.blogModal {
+  max-width: 96%;
+  margin: 50px auto;
+}
+.modal-xl.blogModal .modal-body {
+  max-height: 72vh;
+  overflow-y: auto;
+}
+
+.companies {
+  position: relative;
+  min-height: 140px;
+}
+.companyLogos {
+  position: relative;
+  width: 200%;
+}
+.companyLogos ul {
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 140px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.companyLogos ul li {
+  transform: translateX(0);
+  animation: logoAnimate 1s ease-in infinite;
+}
+.companyLogos ul li a {
+  display: block;
+}
+.companyLogos ul li a img {
+  max-width: 240px;
+}
+@keyframes logoAnimate {
+  100% {
+    transform: translateX(-66.667%);
+  }
+  /* 50% {
+    transform: translateX(-100%);
+  } */
+}
+.highway-slider {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.highway-slider div.highway-barrier {
+  overflow: hidden;
+  position: relative;
+}
+.highway-slider ul.highway-lane {
+  display: flex;
+  height: 100%;
+}
+.highway-slider ul.highway-lane li.highway-car {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.highway-barrier ul.highway-lane {
+  /* width: calc(180px * 24); */
+  width: 210px;
+}
+.highway-barrier ul.highway-lane li.highway-car {
+  width: 210px;
+  -webkit-animation: translateinfinite 80s linear infinite;
+  animation: translateinfinite 80s linear infinite;
+}
+.highway-barrier ul.highway-lane li.highway-car a {
+  display: flex;
+}
+.highway-barrier ul.highway-lane li.highway-car a img {
+  display: flex;
+  max-width: 200px;
+}
+@-webkit-keyframes translateinfinite {
+  100% {
+    /* transform: translateX(140px); */
+    transform: translateX(calc(-180px * 12));
+  }
+}
+@keyframes translateinfinite {
+  100% {
+    /* transform: translateX(140px); */
+    transform: translateX(calc(-180px * 12));
+  }
 }

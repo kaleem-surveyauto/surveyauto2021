@@ -1,3 +1,8 @@
+@media (min-width: 1199.98px){
+    .modal-xl.blogModal{
+        max-width: 80%;
+    }
+}
 @media (min-width:2000px){
     .call_action_area .action_one{
         left: 40px;
@@ -635,6 +640,7 @@
     .software_promo_area .round_shape{
         border: 0px;
     }
+      
     .feature_info .f_content h2{
         padding-right: 0px;
     }
@@ -1610,6 +1616,7 @@
         left: 0;
         right: auto;
     }
+    
     .oneThirdServices li,
   .oneHalfServices li {
     width: calc(100% / 2);
@@ -3228,6 +3235,12 @@
 }
 
 @media (max-width:768px){
+    .startup_banner_area_three{
+        min-height: 63vh;
+    }
+    .startup_content_three span.h1{
+        font-size: 22px;
+    }
     .sec_title br,.prototype_service_info h2 br,.hosting_title h2 br{
         display: none;
     }
@@ -3245,6 +3258,11 @@
     .banner_top h2{
         font-size: 32px;
     }
+    .saWorkingList {
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+      }
     .seo_banner_content h2{
         line-height: 48px;
     }
@@ -4105,6 +4123,10 @@
 }
 
 @media (max-width:650px){
+    .startup_banner_area_three {
+        min-height: 90vh;
+        border-bottom: 1px solid var(--info);
+    }
     .about_img .about_img_slider .about_item.w45,.about_img .about_img_slider .about_item.w55{
         width: 100%;
     }

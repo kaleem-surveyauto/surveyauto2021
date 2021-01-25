@@ -400,7 +400,7 @@
         margin: 10,
         items: 6,
         autoplay: true,
-        smartSpeed: 1200,
+        smartSpeed: 600,
         responsiveClass: true,
         nav: false,
         dots: true,
