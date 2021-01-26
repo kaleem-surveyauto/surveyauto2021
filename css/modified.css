@@ -257,6 +257,8 @@
 }
 .highway-barrier ul.highway-lane li.highway-car a {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .highway-barrier ul.highway-lane li.highway-car a img {
   display: flex;

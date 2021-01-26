@@ -4123,6 +4123,29 @@
 }
 
 @media (max-width:650px){
+    .wow {
+        animation-name: none !important;
+        visibility: visible !important;
+      }
+      .job_listing{
+          margin-top: 0;
+      }
+      .job_listing .listing_tab{
+          margin-top: 20px;
+      }
+      .sec_pad, .prototype_service_info{
+          padding: 40px 0;
+      }
+      .job_listing .listing_tab .list_item{
+          padding: 15px;
+      }
+      .service_details.pr_120, .service_details{
+          padding-right: 0;
+          padding-top: 30px;
+      }
+      .modal-xl.blogModal .modal-body{
+          max-height: 60vh;
+      }
     .startup_banner_area_three {
         min-height: 90vh;
         border-bottom: 1px solid var(--info);
