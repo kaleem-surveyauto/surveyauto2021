@@ -4127,10 +4127,13 @@
         animation-name: none !important;
         visibility: visible !important;
       }
+      .menu_one, .header_area.navbar_fixed .menu_one, .menu_two, .menu_six, .menu_seven{
+          padding: 0;
+      }
       .job_listing{
           margin-top: 0;
       }
-      .job_listing .listing_tab{
+      .job_listing .listing_tab, .f_widget .mb_40{
           margin-top: 20px;
       }
       .sec_pad, .prototype_service_info{
@@ -4142,6 +4145,12 @@
       .service_details.pr_120, .service_details{
           padding-right: 0;
           padding-top: 30px;
+      }
+      .process_area .agency_featured_item{
+          padding-bottom: 30px; border-bottom: 1px solid var(--secondary);
+      }
+      .process_area .agency_featured_item.processSix{
+          border-bottom: 0;
       }
       .modal-xl.blogModal .modal-body{
           max-height: 60vh;
