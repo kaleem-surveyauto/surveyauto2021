@@ -94,6 +94,14 @@
   overflow: hidden;
   z-index: 1;
 }
+.stateOfArt .video_info {
+  background: linear-gradient(
+      50deg,
+      rgba(5, 127, 121, 0.7) 0%,
+      rgba(23, 199, 189, 0.75) 100%
+    ),
+    url("../img/sa-datacollection.png") no-repeat center / cover;
+}
 .greenGradient,
 .agency_featured_item .agency_featured_content .icon {
   background-image: -moz-linear-gradient(140deg, #057f79 0%, #17c7bd 100%);
@@ -244,8 +252,8 @@
 }
 .highway-barrier ul.highway-lane li.highway-car {
   width: 210px;
-  -webkit-animation: translateinfinite 80s linear infinite;
-  animation: translateinfinite 80s linear infinite;
+  -webkit-animation: translateinfinite 50s linear infinite;
+  animation: translateinfinite 50s linear infinite;
 }
 .highway-barrier ul.highway-lane li.highway-car a {
   display: flex;
